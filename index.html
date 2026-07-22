@@ -7,84 +7,114 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        
-        <ul class="nav">
-            <section class="pic">
-                <img src="/images/MARY LOGO.png" alt="logo">
-            </section>
-            <section class="navlinks">
+
+
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="/images/My LOGO.png" alt="Logo">
+    </div>
+
+    <div class="navlinks">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contacts">Contacts</a>
-        </section>
-    </ul>
-    </nav>
-    <section id="home">
-        <div class="home">  
-    <h1>John Vincent L. Baylen</h1>
-    <h5>BSIT Student, Aspiring Layout Artist</h5>
-    
-    
+    </div>
+    <div class="darkmode">
+        <button onclick="myFunction()">Dark Mode</button>
+    </div>
+
+</nav>
+
+
+<section id="home">
+    <div class="home">
+        <button class="titlename" onclick="showInformation()"><h1>John Vincent L. Baylen</h1></button>
+        <h5>BSIT Student, Aspiring Layout Artist</h5>
+    </div>
+</section>
+
+<section id="about">
+
+<div class="about">
+
+<div class="imagesec">
+<img src="/images/my.png" alt="My Picture">
 </div>
-    </section>
 
-    <section id="about">
-        <div class="about">
-            <section class="imagesec">
-            <img src ="/images/my.png" alt="logo">
-            </section>
-            <h2>About Me</h2>
-            
-            <section class="words">
-            
-       <p>
-        Currently living at Prk. II Tubi-ala Surallah South Cotabato, and studying at Holy Child Central Colleges Inc.
-        I'm also a working student, my work is layout artist for the past 2 years.  I design and create standout jerseys, focus on combining
-        creativity, functionality, and style in every project I work on. My strengths include fast and practical design, eye-catching aesthetics, and bringing ideas to life efficiently.
-        Graduated at Lamsugod National High School and Currently Pursuing Bachelor of Science in Infromation Technology (BSIT)</p>
-        </section>
-        
-    </section>
+<div class="words">
 
-    <section id="skills">
+<h2 id="name">About Me</h2>
+
+<p>
+Thanks for stopping by! I'm a BSIT student and working Layout Artist who enjoys transforming ideas into creative and meaningful designs. With over two years of experience in jersey design, I focus on delivering visually appealing, functional, and high-quality artwork while continuously expanding my skills in graphic design and technology.
+</p>
+<div class="info">
+    <button id="infoBtn">About Me</button>
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section id="skills">
         <div class="skills">
-            <h2>Skills</h2>
-        <p> Current Skills:</p>
-        <ul>
-            <li>Graphic Design</li>
-            <li>Cooking</li>
-            <li>Sleeping</li>
-            <li>Communication Skiils</li>
-            <li>Microsoft Office</li>
-    </ul>
+        <h2> Current Skills:</h2>
+        <div class="skillcontainer">
+        
+            <div class="skillcard"><p>Graphic Design</p></div>
+            <div class="skillcard"><p>Cooking</p></div>
+            <div class="skillcard"><p>Sleeping</p></div>
+            <div class="skillcard"><p>Communication Skill</p></div>
+            <div class="skillcard"><p>Microsoft Office</p></div>
+        </div>
     </div>
     </section>
 
     <section id="projects">
         <div class="projects">
             <h2>Projects</h2>
-            <div class="card">
-                <img src="">
-                <h6>JJV Resort Website</h6>
+            <div class="project-container">
+                <div class="img"><img src="/images/JJV Resort.png" alt="JJV Resort Website"></div>
+                <div class="card-project">
+                    
+                
+                    <h6>JJV Resort Website</h6>
+                
                 <p>A booking and reservation website for more conveniant and easy accomodation</p>
+            </div>
+            </div>
+            <div class="project-container">
+                <div class="img"><img src="/images/Quiz.jfif" alt="Quiz Generator System"></div>
+                <div class="card-project">
+                    
+                
+                    <h6>Quiz Generator System</h6>
+                
+                <p>A system for generating quizzes with various question types and scoring mechanisms.</p>
+            </div>
             </div>
         </div>
     </section>
 
     <section id="contacts">
         <div class="contacts">
-            <h2>Contact Me</h2>
-            <p>Phone Number:+63 9066368166</p>
-            <p>Facebook: John Vincent Baylen</p>
-            <p>Email: baylenjohnvincent127@gmail.com</p>
+            <div><h2>Contact Me</h2></div>
+            <div><p>Phone Number:+63 9066368166</p></div>
+            <div><p>Facebook: John Vincent Baylen</p></div>
+            <div><p>Email: baylenjohnvincent127@gmail.com</p></div>
         </div>
     </section>
-    <footer>
-        <p>All Rights Reserved 2026 John Vincent Baylen</p>
-    </footer>
-    
+<footer>
+<p>All Rights Reserved 2026 John Vincent Baylen</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
