@@ -1,7 +1,7 @@
 window.onload = function () {
     window.alert("Welcome to my Portfolio!");
 }
-document.getElementById("name").innerText = "Hi!";
+document.getElementById("name").innerText = "Hi😉";
 document.getElementById("name").style.fontSize = "40px";
 
 function myFunction() {
