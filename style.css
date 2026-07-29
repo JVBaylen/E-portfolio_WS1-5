@@ -20,19 +20,28 @@
 body{
     background:var(--nineth);
     color:black;
-    margin:20px;
+    margin:0;
+    font-family: 'Teachers', sans-serif;
 }
 
 .dark-mode {
-  background-color:var(--tenth); ;
+  filter: invert(1) hue-rotate(180deg) ;
+  background-color: black;
   color: black;
 }
-
+.dark-mode .imagesec,
+.dark-mode .logo,
+.dark-mode .img,
+.dark-mode .skillcard,
+.dark-mode .card-project,
+.dark-mode .darkmode{
+filter: invert(1) hue-rotate(180deg) ;
+}
 .navbar{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:var(--fifth);
+    background:var(--sixth);
     padding:10px 20px;
 }
 
@@ -49,7 +58,7 @@ body{
 }
 
 .navlinks a{
-    color:white;
+    color:black;
     text-decoration:none;
     padding:10px 15px;
 }
@@ -102,6 +111,7 @@ body{
     background:var(--third);
     margin-top:15px;
     padding:30px;
+    margin:20px;
     border-radius:8px;
     text-align:center;
 }
@@ -124,6 +134,7 @@ body{
     background:var(--sixth);
     padding:20px;
     margin-top:20px;
+    margin:20px;
     border-radius:8px;
 }
 
@@ -140,7 +151,7 @@ body{
     border-radius: 8px;
     background-color:var(--third) ;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .skillcontainer {
@@ -172,7 +183,7 @@ body{
     border-radius: 5px;
     background-color:var(--sixth) ;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .img img{
@@ -217,39 +228,34 @@ body{
     font-weight: bold;
     text-align: center;
 }
-.contacts{
-    border-radius: 5px;
-    background-color:var(--third) ;
-    padding: 20px;
-    margin: 10px;
-}
+
 
 .contacts{
     display:flex;
     flex-direction:column;
-    background:var(--third);
     padding:20px;
     margin-top:20px;
     border-radius:8px;
 }
 
 .contacts div{
-    background-color:var(--fourth);
+    background-color:var(--third);
   width: auto;
-  height: 30px;
+  height: 50px;
   margin: 10px 0;
-  padding: 0px;
+  padding: 10px;
   text-align: left;  
   font-size: 20px;
   border-radius: 8px;
-  line-height: 30px;
+  line-height:30px;
 }
 
 footer{
-    background:var(--second);
+    background-color: var(--sixth);
     margin-top:20px;
     text-align:center;
     padding:20px;
+    color: black;
     border-radius:8px;
 }
 
